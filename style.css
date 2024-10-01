@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+    background-color: yellowgreen;
+    gap: 10px;
+    padding: 60px;
+}
+.item{
+    border: 1 px solid darkolivegreen;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: tomato;
+}
+.item1{
+    grid-area: 2 / 2 / 5 / 5;
+    border: 1 px solid darkolivegreen;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: tomato;
+}
+.wrap_grid{
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+gap: 10px;
+}
+img{
+  width: 100%;
+  height: 100%;      
+}
+.img1{
+    grid-area: 1 / 1 / 3 /3;
+}
+.test{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns:  auto auto auto ;
+gap: 10px;
+}
+.header{
+    background-image: linear-gradient(pink, red);
+    color: black;
+    border: 5px solid black;
+    text-align: center;
+    height: 65px;
+    font-size: 2rem;
+    border-radius: 6px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.sidebar{
+    background-image: linear-gradient(rgb(218, 165, 228), rgb(158, 31, 154));
+    color: black;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 6px;
+    /* grid-column:1; */
+    grid-row-start: 2 ;
+    grid-row-end: 6 ;
+}
+.content1{
+    background-image: linear-gradient(rgb(147, 201, 171), rgb(85, 213, 83));
+    color: black;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 6px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2 ;
+    grid-row-end: 2 ;
+}
+.content2{
+    background-image: linear-gradient(rgb(163, 145, 212), rgb(30, 50, 203));
+    color: black;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 6px;
+    /* grid-column-start: 4;
+    grid-column-end: 6; */
+    grid-row-start: 3 ;
+    grid-row-end: 6 ;
+}
+.content3{
+    background-image: linear-gradient(rgb(163, 145, 212), rgb(30, 50, 203));
+    color: black;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 6px;
+    /* grid-column-start: 4;
+    grid-column-end: 6; */
+    grid-row-start: 3 ;
+    grid-row-end: 6 ;
+}
+.footer{
+    background-image: linear-gradient(pink, red);
+    color: black;
+    border: 5px solid black;
+    text-align: center;
+    height: 65px;
+    font-size: 2rem;
+    border-radius: 6px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
